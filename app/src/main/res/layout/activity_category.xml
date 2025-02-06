@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7">
+
+    <TextView
+        android:id="@+id/btn_test_fnc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_corner"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:padding="50dp"
+        android:text="THI SÁT HẠCH"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CHỌN ĐỀ THI"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="#fa5252"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/bg_red"></Spinner>
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="BẮT ĐẦU"
+        android:background="@drawable/bg_purple"></Button>
+    <TextView
+        android:id="@+id/btn_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7764eb"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Trở về"
+        android:layout_marginTop="250dp"
+        android:background="#f7f7f7"
+        android:textStyle="bold"/>
+</LinearLayout>

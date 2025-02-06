@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SignCategory"
+        android:orientation="vertical"
+        android:background="#F7F7F7">
+
+
+        <TextView
+            android:id="@+id/btn_test_fnc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_corner"
+            android:elevation="20dp"
+            android:gravity="center"
+            android:padding="50dp"
+            android:text="CÁC LOẠI BIỂN BÁO"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="20dp">
+            <Button
+                android:id="@+id/button_sign1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/sign_regulation"
+                android:textSize="20sp"
+                android:textColor="#495057"
+                android:text="Biển báo cấm"
+                android:layout_alignParentStart="true"/>
+            <Button
+                android:id="@+id/button_sign2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/sign_guidance"
+                android:textSize="20sp"
+                android:text="Biển hiệu lệnh"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="20dp">
+            <Button
+                android:id="@+id/button_sign4"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:background="@drawable/sign_warning"
+                android:textColor="@color/black"
+                android:textSize="100sp"
+                android:text="!"
+                />
+            <Button
+                android:id="@+id/button_sign3"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:background="@drawable/sign_instruction"
+                android:textSize="20sp"
+                android:text="Biển chỉ dẫn"
+                android:layout_alignParentEnd="true"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="20dp">
+            <Button
+                android:id="@+id/button_sign5"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg_pink"
+                android:text="Biển phụ"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btn_backward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Trở về"
+            android:textColor="#7764eb"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

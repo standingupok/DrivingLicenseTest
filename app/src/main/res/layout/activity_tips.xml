@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F7F7"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7764eb">
+        <ImageButton
+            android:id="@+id/btn_backward"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#7764eb"
+            android:contentDescription="back"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_arrow_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F7F7F7"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:text="MẸO GHI NHỚ"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#F7F7F7"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Cấp phép"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Đường cấm dừng, cấm đỗ, cấm đi do UBND cấp tỉnh cấp
+                \n&#8226; Xe quá khổ, quá tải do: cơ quản quản lý đường bộ có thẩm quyền cấp phép"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Nồng độ cồn"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Người điều khiển xe mô tô, ô tô, máy kéo trên đường mà trong máu hoặc hơi thở có nồng độ cồn: Bị nghiêm cấm"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Tốc độ tối đa cho phép đối với"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Xe máy chuyên dùng, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự trên đường bộ (trừ đường cao tốc): 40km/h
+                \n&#8226; Tốc độ tối đa cho phép của các loại xe cơ giới, xe máy chuyên dùng trên đường cao tốc phải tuân thủ tốc độ tối đa, tốc độ tối thiểu và không vượt quá: 120km/h"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Hỏi về tuổi (T)"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Tuổi tối đa hạng E: nam 55, nữ 50
+                \n&#8226; Tuổi lấy bằng lái xe (cách nhau 3 tuổi)"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Gắn máy: 16T (dưới 50cm3)
+                \n&#8226; Mô tô + B1 + B2: 18T
+                \n&#8226; C, FB: 21T
+                \n&#8226; D, FC: 24T
+                \n&#8226; E, FD: 27T"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Trên đường cao tốc, trong đường hầm, đường vòng, đầu dốc, nơi tầm nhìn hạn chế"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Không được quay đầu xe, không lùi, không vượt
+                \n&#8226; Không được vượt trên cầu hẹp có một làn xe.
+                \n&#8226; Không được phép quay đầu xe ở phần đường dành cho người đi bộ qua đường.
+                \n&#8226; Cấm lùi xe ở khu vực cấm dừng và nơi đường bộ giao nhau."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Tại nơi giao nhau không có tín hiệu đèn"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Có vòng xuyến: Nhường đường bên trái
+                \n&#8226; Không có vòng xuyến nhường bên phải"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Niên hạn sử dụng (tính từ năm sản xuất)"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; 25 năm: ô tô tải
+                \n&#8226; 20 năm: ô tô chở người trên 9 chỗ"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Biển báo cấm"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Cấm ô tô (Gồm: mô tô 3 bánh, Xe Lam, xe khách) --> Cấm xe tải --> Cấm Máy kéo --> Cấm rơ moóc, sơ mi rơ moóc"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Nhất chớm, nhì ưu, tam đường, tứ hướng"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Nhất chớm: Xe nào chớm tới vạch trước thì được đi trước.
+                \n&#8226; Nhì ưu: Xe ưu tiên được đi trước. Thứ tự xe ưu tiên: Hỏa-Sự-An-Thương (Cứu hỏa - Quân sự - Công an - Cứu thương - Hộ đê - Đoàn xe tang).
+                \n&#8226; Tam đường: Xe ở đường chính, đường ưu tiên.
+                \n&#8226; Tứ hướng: Thứ tự hướng: Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:text="Phân nhóm biển báo hiệu: bao gồm"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#444"
+                android:textSize="18sp"
+                android:text="&#8226; Biển nguy hiểm (hình tam giác vàng)
+                \n&#8226; Biển cấm (vòng tròn đỏ)
+                \n&#8226; Biển hiệu lệnh (vòng tròn xanh)
+                \n&#8226; Biển chỉ dẫn (vuông hoặc hình chữ nhật xanh)
+                \n&#8226; Biển phụ (vuông, chữ nhật trắng đen): Hiệu lực nằm ở biển phụ khi có đặt biển phụ"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
